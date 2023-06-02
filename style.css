@@ -218,6 +218,10 @@ footer{
     .wrap-image{
         display: block;
     }
+    
+    footer img{
+        width: 90px;
+    }
 }
 @media (max-width:382px){
     #learn-more1 img {
