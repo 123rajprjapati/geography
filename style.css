@@ -4,6 +4,11 @@
 }
 
 /* ---------navbar======= */
+nav{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
 
 .container-fluid img{
     height:50px
@@ -53,13 +58,7 @@
     font-size: 28px;
     color:rgb(202, 182, 0);
 }
-footer{
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    letter-spacing: 3px;
-}
+
 
 /* ---------learn more------------- */
 
@@ -165,6 +164,22 @@ footer{
     display: flex;
     gap: 2%;
 }
+
+/* ===============footer=============== */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    letter-spacing: 3px;
+}
+footer img{
+    margin-left: 12%;
+    width: 120px;
+    border-radius:20px;
+}
+
 /* ===============media================== */
 @media(max-width:993px){
     .width{
@@ -218,9 +233,8 @@ footer{
     .wrap-image{
         display: block;
     }
-    
     footer img{
-        width: 60px;
+        width: 90px;
     }
 }
 @media (max-width:382px){
@@ -277,3 +291,13 @@ footer{
 .text-shadow{
     text-shadow: 6px 9px 6px black;
 }
+
+
+
+
+
+
+
+
+
+/* CONTACT FORM */
